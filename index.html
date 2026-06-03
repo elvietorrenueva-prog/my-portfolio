@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Torrenueva Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Elvie E. Torrenueva</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#skills">Skills</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div>
+            <div class="hero-avatar-wrapper">
+              <img class="hero-avatar" src="assets/profile.jpg" alt="Profile picture of Torrenueva" />
+            </div>
+            <h1>Hi, I’m Elvie, Welcome to my Portfolio</h1>
+            <p class="hero-copy">
+              I build modern, responsive websites and web applications.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Work</a>
+              <a class="button button-secondary" href="#contact">Let’s Talk</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card__badge">Open for projects</div>
+            <h2>Recent focus</h2>
+            <p>
+              Frontend development with HTML, CSS, JavaScript, PHP.
+              Creating portfolio sites, landing pages, and business websites.
+            </p>
+            <ul class="hero-list">
+              <li><strong>Responsive design</strong></li>
+              <li><strong>Optimized performance</strong></li>
+              <li><strong>Cross-browser compatibility</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container section-grid">
+          <div class="section-intro">
+            <p class="section-label">About Me</p>
+            <p> <strong>Skilled expert  in project management and computer skills. 
+                My sense of responsibility and exceptional time management skills enable me 
+                to efficiently streamline procedures. I'm looking for a job where I can help your 
+                company reach its goals by using my expertise in project management and computers.
+                </strong></p>
+
+          </div>
+          <div class="section-copy">
+            <p>
+              I create websites that help businesses and freelancers connect with
+              customers online. My focus is on clean structure, fast load times,
+              and a polished user experience.
+            </p>
+            <p>
+              I enjoy collaborating with clients to transform concepts into live
+              websites that look great on any screen. I also maintain my work with
+              reliable code and straightforward updates.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Projects</p>
+            <h2></h2>
+          </div>
+          <div class="project-grid project-grid--stacked">
+            <div class="project-stack">
+              <article class="project-card">
+                <div class="project-carousel" data-images="assets/w1.jpg,assets/w2.jpg,assets/w3.jpg">
+                  <img class="project-carousel__image" src="assets/w1.jpg" alt="Portfolio Redesign carousel image" />
+                  <button class="project-carousel__button project-carousel__button--prev" aria-label="Previous image">‹</button>
+                  <button class="project-carousel__button project-carousel__button--next" aria-label="Next image">›</button>
+                  <div class="project-carousel__dots"></div>
+                </div>
+                <div class="project-card__meta">Web Application</div>
+              </article>
+              
+            </div>
+            <article class="project-card">
+                <div class="project-carousel" data-images="assets/p1.jpg,assets/p2.jpg,assets/p3.jpg" style="width: 100%; height: 50%;">
+                  <img class="project-carousel__image" src="assets/p1.jpg" alt="Project 1 carousel image" />
+                  <button class="project-carousel__button project-carousel__button--prev" aria-label="Previous image">‹</button>
+                  <button class="project-carousel__button project-carousel__button--next" aria-label="Next image">›</button>
+                  <div class="project-carousel__dots"></div>
+                </div>
+                <div class="project-card__meta">Mobile Application</div>
+              </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-gallery" id="gallery">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Gallery</p>
+          </div>
+          <div class="gallery-grid">
+            <article class="gallery-card">
+              <img class="gallery-card__image" src="assets/g1.jpg" alt="Minimal studio homepage preview" />
+              <div class="gallery-card__content">
+                <p class="gallery-card__tag"></p>
+              </div>
+            </article>
+            <article class="gallery-card">
+              <img class="gallery-card__image" src="assets/g2.jpg" alt="Project dashboard interface mockup" />
+              <div class="gallery-card__content">
+                <p class="gallery-card__tag"></p>
+              </div>
+            </article>
+            <article class="gallery-card">
+              <img class="gallery-card__image" src="assets/g3.jpg" alt="Landing page concept design" />
+              <div class="gallery-card__content">
+                <p class="gallery-card__tag"></p>
+              </div>
+            </article>
+             <article class="gallery-card">
+              <img class="gallery-card__image" src="assets/g4.jpg" alt="Landing page concept design" />
+              <div class="gallery-card__content">
+                <p class="gallery-card__tag"></p>
+              </div>
+            </article>
+             <article class="gallery-card">
+              <img class="gallery-card__image" src="assets/g5.jpg" alt="Landing page concept design" />
+              <div class="gallery-card__content">
+                <p class="gallery-card__tag"></p>
+              </div>
+            </article>
+             <article class="gallery-card">
+              <img class="gallery-card__image" src="assets/g6.jpg" alt="Landing page concept design" />
+              <div class="gallery-card__content">
+                <p class="gallery-card__tag"></p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Skills</p>
+            <h2>What I work with</h2>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <p>PHP, MySQL, REST APIs</p>
+            </div>
+            <div class="skill-card">
+              <h3>Tools</h3>
+              <p>Git, VS Code, Figma</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="certifications">
+        <div class="container">
+          <div class="section-head">
+            <p class="section-label">Certifications</p>
+            <h2>Credentials</h2>
+          </div>
+          <div class="cert-grid">
+            <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert1.jpg" alt="Google Analytics certification badge" />
+              <p class="cert-title">Advanced Seminar</p>
+            </article>
+            <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert2.jpg" alt="Microsoft Power Platform certification badge" />
+              <p class="cert-title">Advanced Seminar</p>
+            </article>
+            <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert5.jpg" alt="Scrum Fundamentals certification badge" />
+              <p class="cert-title">Mental Health Awareness</p>
+            </article>
+            <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert4.jpg" alt="Scrum Fundamentals certification badge" />
+              <p class="cert-title">3K Session</p>
+            </article>
+            <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert7.jpg" alt="Scrum Fundamentals certification badge" />
+              <p class="cert-title">Cisco Packet Tracer</p>
+            </article>
+             <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert6.jpg" alt="Scrum Fundamentals certification badge" />
+              <p class="cert-title">Cisco Packet Tracer</p>
+            </article>
+             <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert8.jpg" alt="Scrum Fundamentals certification badge" />
+              <p class="cert-title">Cybersecurity</p>
+            </article>
+             <article class="cert-card">
+              <img class="cert-card__image" src="assets/cert3.jpg" alt="Scrum Fundamentals certification badge" />
+              <p class="cert-title">Tree planting</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <p class="section-label">Contact</p>
+            <h2>Let’s build something together.</h2>
+            <p>
+              Need a new website, portfolio update, or business landing page? Send a
+              message and I’ll get back to you quickly.
+            </p>
+            <div class="contact-details">
+              <div class="contact-detail">
+                <span class="contact-detail__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+                </span>
+                <span><strong>Address:</strong> Purok 1, Salvacion, Panabo City</span>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.11-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </span>
+                <span><strong>Email:</strong> torrenuevaelvie@gmail.com</span>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-detail__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.06-.24 11.05 11.05 0 003.46.55 1 1 0 011 1V20a1 1 0 01-1 1 17 17 0 01-15-15 1 1 0 011-1h3.5a1 1 0 011 1c0 1.18.19 2.33.55 3.46a1 1 0 01-.24 1.06l-2.2 2.2z"/></svg>
+                </span>
+                <span><strong>Phone:</strong> +639853114332</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" action="mailto:hello@torrenueva.com" method="post" enctype="text/plain">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Elvie E. Torrenueva.</p>
+        <p>Made for modern businesses and creative professionals.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
